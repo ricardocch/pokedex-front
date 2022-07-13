@@ -1,0 +1,41 @@
+.ActioonsContainer{
+    height: 50px;
+    background-color: #2f68b1;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.ActioonsContainer select{
+    border: none;
+    background-color: yellow;
+    color: #f51326;
+    min-width: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.ActioonsContainer span{
+    padding: 15px;
+}
+
+.ActioonsContainer input{
+    background: #2f68b1;
+    border: 2px solid red;
+    color: yellow;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.ActioonsContainer button{
+    background-color: yellow;
+    color: #f51326;
+    height: 35px;
+    font-weight: 600;
+    margin-left: 5px;
+}
